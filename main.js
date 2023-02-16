@@ -67,3 +67,6 @@ App.onJoinPlayer.Add(function (player) {
     // x좌표 5, y좌표 5에 있는 구름 이미지를 x좌표 100, y좌표 5로 34초 동안 이동시키기
     Map.moveObject(5, 5, 100, 5, 34);
 })
+
+// git commit --amend -m'zep 게임개발 예제' 로 커밋하고 
+// git push --force https://github.com/hyun071/ZEPExample master 로 푸시하면 잔디가 안 심어진다 
